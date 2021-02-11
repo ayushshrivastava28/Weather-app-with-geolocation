@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(0.25turn, #85c6e2, #7ca7e0, #fcf5ee);
+    overflow-x: hidden;
+}
+
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    height: 100%;
+    width: 350px;
+    padding: 10px;
+    margin-top: 2%;
+    text-align: center;
+    background-color: white;
+}
+
+@media screen and (max-width: 800px) {
+
+    .app-container,
+    .container {
+        width: 100%;
+        height: 100%;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .app-container,
+    .container {
+        width: 100%;
+        height: 100%;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+
+@media screen and (max-width: 200px) {
+
+    .app-container,
+    .container {
+        width: 100%;
+        height: 100%;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
