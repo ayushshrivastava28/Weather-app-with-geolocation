@@ -24,7 +24,7 @@ const FetchWeather = () => {
     const location = useGeolocation()
     const [foreData, setForeData] = useState([])
     // const [dailyData, setDailyData] = useState({});
-    const API_KEY = "3fec51114041e81201e3a872ce22b26e";
+    const API_KEY = "Enter your API key";
     const classes = useStyles();
     // console.log("weather: ", weatherCondition)
 
